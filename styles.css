@@ -1,0 +1,58 @@
+body {
+font-family: 'Outfit', sans-serif;
+background-color: hsl(212, 45%, 89%);
+font-size: 15px;
+position: relative;
+width: auto;
+height: auto;
+}
+
+.container {
+align-items: center;
+position: relative;
+display: inline-block;
+align-items: center;
+text-align: center;
+}
+
+.bordered {
+align-items: center;
+border-color: hsl(220, 15%, 55%);
+position: absolute;
+top: 37%;
+left: 50%;
+transform: translate(-50%, -50%);
+z-index: 2;
+border-radius: 3%;
+}
+
+.img-container {
+    position: relative;
+}
+
+.background-box {
+    background-color: hsl(0, 0%, 100%);
+    text-align: center;
+    height: 860px;
+    width: 619px;
+    border-radius: 5%;
+    z-index: -1;
+    margin-bottom: 0px;
+}
+
+.image-text {
+    position: absolute;
+    bottom: 190px;
+    color: rgb(4, 4, 4);
+    text-align: center;
+    font-size:190%;
+    margin-bottom: -1%;
+    margin-left: 5%;
+}
+.image-detail {
+    position: relative;
+    bottom: -700px;
+    color: rgb(23, 182, 187);
+    text-align: center;
+    font-size:130%;
+}
